@@ -11,15 +11,18 @@
 
 <body>
     <div id="root">
+        <img id="largeCursor" src="Images/curserlogo1.png"
+            style="position: absolute; width: 32px; height: 32px; display: none;">
+
         <div id="title">
             <img src="Images/tital.png" alt="daredeviltital">
         </div>
         <div id="contact">
             <p>
-                <span >&#128386;</span>daredevil@mail.com
+                <span>&#128386;</span>daredevil@mail.com
             </p>
             <p>
-                <span >&#128382;</span>+11 258 8888 258
+                <span>&#128382;</span>+11 258 8888 258
             </p>
         </div>
         <div id="containt">
@@ -91,14 +94,15 @@
                             <p><strong>HAIR </strong><br>Black</p>
                         </div>
                     </div>
-                    
+
                     <div>
                         <hr>
                         <p>
                             <strong>PLACE OF ORIGIN </strong><br>Clinton ("Hell's Kitchen"), New York City, New York
                         </p>
                         <p>
-                            <strong>EDUCATION</strong><br>Columbia University (undergraduate) and J.D. in law from Harvard
+                            <strong>EDUCATION</strong><br>Columbia University (undergraduate) and J.D. in law from
+                            Harvard
                         </p>
                         <p><strong>PUBLIC IDENTITY</strong><br>Lawyer and Co-founder of Nelson & Murdock law firm.
                         </p>
@@ -135,7 +139,7 @@
 
                     </tr>
 
-                    
+
                     <tr>
                         <label>
                             <th>Energy:</th>
@@ -173,14 +177,14 @@
                     </tr>
                 </table>
 
-            
+
 
 
             </div>
 
             <div id="wepones">
                 <h1>Weapon Speciality</h1>
-                <div >
+                <div>
                     <img src="Images/Daredevil with wepone.jpg" alt="weapon">
                     <p>Daredevil's signature weapon is his specially designed baton, which he created.
                         Disguised as a blind man's cane in civilian garb, it is a multi-purpose weapon and tool
@@ -198,7 +202,7 @@
 
         <h1>One Of The Top Rivels</h1>
         <div id="rivels">
-            <div >
+            <div>
                 <img src="Images/kingPing1.jpg" alt="kingping">
                 <p>
                     <b>KingPing :</b> Wilson Grant Fisk began his life as a poor child in New York City.
@@ -208,7 +212,7 @@
                     neighborhoods
                 </p>
             </div>
-            <div >
+            <div>
                 <img src="Images/gladiator.jpg" alt="gladiator">
                 <p><b>Gladiator :</b>Melvin Potter was a costume designer who had the deluded belief that he was far
                     better than any superhero.
@@ -235,10 +239,24 @@
     </div>
     <hr>
 
-    <h4>SURAJ PATIL</h4>
+    <div id="profile">
+        <h3>Suraj Patil :</h3>
+        <a href="www.linkedin.com/in/suraj-patil-602bb72a8">Linkedin</a>
+
+        <a href="https://github.com/SurajPatil29">Github</a>
+    </div>
 
 
 
 </body>
 
 </html>
+<script>
+    document.addEventListener('mousemove', function (e) {
+        var largeCursor = document.getElementById('largeCursor');
+        largeCursor.style.display = 'block';
+        largeCursor.style.left = e.pageX + 'px';
+        largeCursor.style.top = e.pageY + 'px';
+    });
+
+</script>

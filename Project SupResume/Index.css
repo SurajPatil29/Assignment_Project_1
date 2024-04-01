@@ -1,4 +1,4 @@
-body{
+body {
     padding: 1% 10%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -8,9 +8,12 @@ body{
     background-attachment: fixed;
     background-size: cover;
 
+
+    cursor: none;
+
 }
 
-#title{
+#title {
     text-align: center;
 }
 
@@ -18,48 +21,51 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-#contact  span{
+
+#contact span {
     font-size: 30px;
 }
 
-#containt, #wepones div, #rivels div {
+#containt,
+#wepones div,
+#rivels div {
     display: flex;
 }
 
-#about{
+#about {
     width: 85%;
     margin: 2.5%;
 }
 
-#about > audio {
-     
-    background-color: #ee6868; 
-    border: 1px solid #d77777; 
+#about>audio {
+
+    background-color: #ee6868;
+    border: 1px solid #d77777;
     border-radius: 5px;
 }
 
-#about > h1 {
-    font-weight:bolder;
+#about>h1 {
+    font-weight: bolder;
 }
 
 #about p {
     text-indent: 50px;
-     word-spacing: 1px;
-     letter-spacing: 1px;
-     text-align: justify;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
-#personalInfo{
+#personalInfo {
     width: 30%;
     margin: 2.5%;
-    
+
 }
 
-#personalInfo > img {
+#personalInfo>img {
     width: 100%;
 }
 
-#personalInfo > div p {
+#personalInfo>div p {
     margin: 8px;
 }
 
@@ -72,27 +78,30 @@ body{
     margin: 8px 20px;
 }
 
-#tableInfo, #video  {
+#tableInfo,
+#video {
     display: flex;
     gap: 5%;
 }
 
-#abbilities table{
+#abbilities table {
     height: 300px;
 }
 
-#wepones, #abbilities {
+#wepones,
+#abbilities {
     padding: 0 5%;
     width: 50%;
 }
 
-#wepones div p{
+#wepones div p {
     padding: 5%;
     text-indent: 50px;
     word-spacing: 1px;
     letter-spacing: 1px;
     text-align: justify;
 }
+
 #wepones div img {
     height: 300px;
 }
@@ -113,33 +122,61 @@ body{
     justify-content: space-evenly;
 }
 
-h4 {
-    text-align: right;
+#profile {
+    display: flex;
+    justify-content: right;
 }
 
-@media all and (max-width:480px) and (min-width:120px){
-    body{
-      background-image: url(Images/BG4.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
 
-      padding: 0;
-      margin: 0%;
-      text-align: center;
+#profile > a {
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#profile > a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+@media all and (max-width:480px) and (min-width:120px) {
+    body {
+        background-image: url(Images/BG4.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+        padding: 0;
+        margin: 0%;
+        text-align: center;
     }
 
-    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #personalInfo > img #abbilities > table{
+    #title img,
+    #about>audio,
+    #about>h1,
+    p,
+    #discription+div>p,
+    #abbilities,
+    #wepones,
+    #personalInfo>img #abbilities>table {
         width: 80%;
         margin: auto;
     }
 
-    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+    #rivels,
+    #video,
+    #tableInfo,
+    #containt,
+    #wepones>div,
+    #rivels div {
 
         display: block;
     }
 
-    #containt, #personalInfo, #about{
+    #containt,
+    #personalInfo,
+    #about {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -150,36 +187,51 @@ h4 {
         width: auto;
     }
 
-    #video > div > iframe {
+    #video>div>iframe {
         height: 186px;
         width: 300px;
         padding: 10px;
     }
 }
 
-@media all and (max-width:720px) and (min-width:481px){
-    body{
-      background-image: url(Images/BG4.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+@media all and (max-width:720px) and (min-width:481px) {
+    body {
+        background-image: url(Images/BG4.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
-      padding: 0;
-      margin: 0%;
-      text-align: center;
+        padding: 0;
+        margin: 0%;
+        text-align: center;
     }
 
-    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #personalInfo > img, #abbilities > table{
+    #title img,
+    #about>audio,
+    #about>h1,
+    p,
+    #discription+div>p,
+    #abbilities,
+    #wepones,
+    #personalInfo>img,
+    #abbilities>table {
         width: 80%;
         margin: auto;
     }
 
-    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+    #rivels,
+    #video,
+    #tableInfo,
+    #containt,
+    #wepones>div,
+    #rivels div {
 
         display: block;
     }
 
-    #containt, #personalInfo, #about{
+    #containt,
+    #personalInfo,
+    #about {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -190,32 +242,46 @@ h4 {
         width: auto;
     }
 
-    #video > div > iframe {
+    #video>div>iframe {
         height: 375px;
         width: 500px;
         padding: 10px;
     }
 }
 
-@media all and (max-width:1080px) and (min-width:720px){
-    body{
-      
-      padding: 0;
-      margin: 0%;
-      text-align: center;
+@media all and (max-width:1080px) and (min-width:720px) {
+    body {
+
+        padding: 0;
+        margin: 0%;
+        text-align: center;
     }
 
-    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #abbilities > table{
+    #title img,
+    #about>audio,
+    #about>h1,
+    p,
+    #discription+div>p,
+    #abbilities,
+    #wepones,
+    #abbilities>table {
         width: 80%;
         margin: auto;
     }
 
-    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+    #rivels,
+    #video,
+    #tableInfo,
+    #containt,
+    #wepones>div,
+    #rivels div {
 
         display: block;
     }
 
-    #containt, #personalInfo, #about{
+    #containt,
+    #personalInfo,
+    #about {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -226,10 +292,9 @@ h4 {
         width: auto;
     }
 
-    #personalInfo > img{
+    #personalInfo>img {
         width: 400px;
     }
 
-  
-}
 
+}
