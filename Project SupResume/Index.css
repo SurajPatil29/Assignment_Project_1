@@ -1,0 +1,235 @@
+body{
+    padding: 1% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    background-image: url(Images/BG1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#title{
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact  span{
+    font-size: 30px;
+}
+
+#containt, #wepones div, #rivels div {
+    display: flex;
+}
+
+#about{
+    width: 85%;
+    margin: 2.5%;
+}
+
+#about > audio {
+     
+    background-color: #ee6868; 
+    border: 1px solid #d77777; 
+    border-radius: 5px;
+}
+
+#about > h1 {
+    font-weight:bolder;
+}
+
+#about p {
+    text-indent: 50px;
+     word-spacing: 1px;
+     letter-spacing: 1px;
+     text-align: justify;
+}
+
+#personalInfo{
+    width: 30%;
+    margin: 2.5%;
+    
+}
+
+#personalInfo > img {
+    width: 100%;
+}
+
+#personalInfo > div p {
+    margin: 8px;
+}
+
+#discription {
+    display: flex;
+    justify-content: center;
+}
+
+#discription hr {
+    margin: 8px 20px;
+}
+
+#tableInfo, #video  {
+    display: flex;
+    gap: 5%;
+}
+
+#abbilities table{
+    height: 300px;
+}
+
+#wepones, #abbilities {
+    padding: 0 5%;
+    width: 50%;
+}
+
+#wepones div p{
+    padding: 5%;
+    text-indent: 50px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+#wepones div img {
+    height: 300px;
+}
+
+#rivels {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+#rivels img {
+    width: 300px;
+    height: 300px;
+    margin: 0 5%;
+}
+
+#video {
+    justify-content: space-evenly;
+}
+
+h4 {
+    text-align: right;
+}
+
+@media all and (max-width:480px) and (min-width:120px){
+    body{
+      background-image: url(Images/BG4.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+      padding: 0;
+      margin: 0%;
+      text-align: center;
+    }
+
+    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #personalInfo > img #abbilities > table{
+        width: 80%;
+        margin: auto;
+    }
+
+    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+
+        display: block;
+    }
+
+    #containt, #personalInfo, #about{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #rivels img {
+        padding: 5%;
+        width: auto;
+    }
+
+    #video > div > iframe {
+        height: 186px;
+        width: 300px;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width:720px) and (min-width:481px){
+    body{
+      background-image: url(Images/BG4.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+      padding: 0;
+      margin: 0%;
+      text-align: center;
+    }
+
+    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #personalInfo > img, #abbilities > table{
+        width: 80%;
+        margin: auto;
+    }
+
+    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+
+        display: block;
+    }
+
+    #containt, #personalInfo, #about{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #rivels img {
+        padding: 5%;
+        width: auto;
+    }
+
+    #video > div > iframe {
+        height: 375px;
+        width: 500px;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width:1080px) and (min-width:720px){
+    body{
+      
+      padding: 0;
+      margin: 0%;
+      text-align: center;
+    }
+
+    #title img, #about > audio, #about > h1, p, #discription + div > p, #abbilities, #wepones, #abbilities > table{
+        width: 80%;
+        margin: auto;
+    }
+
+    #rivels, #video, #tableInfo, #containt, #wepones > div, #rivels div {
+
+        display: block;
+    }
+
+    #containt, #personalInfo, #about{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #rivels img {
+        padding: 5%;
+        width: auto;
+    }
+
+    #personalInfo > img{
+        width: 400px;
+    }
+
+  
+}
+
