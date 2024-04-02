@@ -11,9 +11,19 @@
 
 <body>
     <div id="root">
-        <img id="largeCursor" src="Images/curserlogo1.png"
-            style="position: absolute; width: 32px; height: 32px; display: none;">
+        <div id="navbar">
+            <a href="#about">About</a>
+            <a href="#abbilities">Abbilities & Wepon</a>
+            <a href="#rivels">Rivels</a>
+            <a href="#video">Video</a>
+        </div>
 
+        <select name="navbar1" id="navbar1">
+            <option value="#about">About</option>
+            <option value="#abbilities">Abbilities & Wepon</option>
+            <option value="#rivels">Rivels</option>
+            <option value="#video">Video</option>
+        </select>
         <div id="title">
             <img src="Images/tital.png" alt="daredeviltital">
         </div>
@@ -246,17 +256,6 @@
         <a href="https://github.com/SurajPatil29">Github</a>
     </div>
 
-
-
 </body>
 
 </html>
-<script>
-    document.addEventListener('mousemove', function (e) {
-        var largeCursor = document.getElementById('largeCursor');
-        largeCursor.style.display = 'block';
-        largeCursor.style.left = e.pageX + 'px';
-        largeCursor.style.top = e.pageY + 'px';
-    });
-
-</script>

@@ -9,7 +9,29 @@ body {
     background-size: cover;
 
 
-    cursor: none;
+}
+#navbar1{
+    display: none;
+}
+
+#navbar {
+    display: flex;
+    width: 80%;
+    background-color: rgb(83, 8, 8);
+    justify-content: space-evenly;
+    border-radius: 25px;
+    position: fixed;
+}
+
+#navbar:hover {
+    cursor: pointer;
+}
+
+#navbar > a {
+    text-decoration: none;
+    color: white;
+
+    padding: 10px;
 
 }
 
@@ -140,16 +162,29 @@ body {
     text-decoration: underline;
 }
 
-@media all and (max-width:480px) and (min-width:120px) {
+@media all and (max-width:1080px) and (min-width:720px) {
     body {
-        background-image: url(Images/BG4.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
 
         padding: 0;
         margin: 0%;
         text-align: center;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #navbar1{
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin: 10px 9%;
+        position: fixed;
+        color: white;
+        background-color: rgb(72, 8, 8);
+        font-size: medium;
+        border-radius: 25px;
+
     }
 
     #title img,
@@ -159,7 +194,7 @@ body {
     #discription+div>p,
     #abbilities,
     #wepones,
-    #personalInfo>img #abbilities>table {
+    #abbilities>table {
         width: 80%;
         margin: auto;
     }
@@ -187,11 +222,11 @@ body {
         width: auto;
     }
 
-    #video>div>iframe {
-        height: 186px;
-        width: 300px;
-        padding: 10px;
+    #personalInfo>img {
+        width: 400px;
     }
+
+
 }
 
 @media all and (max-width:720px) and (min-width:481px) {
@@ -204,6 +239,23 @@ body {
         padding: 0;
         margin: 0%;
         text-align: center;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #navbar1{
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin: 10px 9%;
+        position: fixed;
+        color: white;
+        background-color: rgb(72, 8, 8);
+        font-size: medium;
+        border-radius: 25px;
+
     }
 
     #title img,
@@ -249,12 +301,34 @@ body {
     }
 }
 
-@media all and (max-width:1080px) and (min-width:720px) {
+
+
+@media all and (max-width:480px) and (min-width:120px) {
     body {
+        background-image: url(Images/BG4.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         padding: 0;
         margin: 0%;
         text-align: center;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #navbar1{
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin: 10px 9%;
+        position: fixed;
+        color: white;
+        background-color: rgb(72, 8, 8);
+        font-size: medium;
+        border-radius: 25px;
     }
 
     #title img,
@@ -264,7 +338,7 @@ body {
     #discription+div>p,
     #abbilities,
     #wepones,
-    #abbilities>table {
+    #personalInfo>img #abbilities>table {
         width: 80%;
         margin: auto;
     }
@@ -292,9 +366,10 @@ body {
         width: auto;
     }
 
-    #personalInfo>img {
-        width: 400px;
+    #video>div>iframe {
+        height: 186px;
+        width: 300px;
+        padding: 10px;
     }
-
-
 }
+
