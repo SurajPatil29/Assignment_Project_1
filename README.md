@@ -6,7 +6,7 @@
 The project "Super_Hero_Resume" is a captivating static website dedicated to showcasing the illustrious profile of the superhero Daredevil, leveraging the fundamental web technologies HTML and CSS. This project provides a comprehensive and interactive online platform to explore various facets of Daredevil's character, including his backstory, abilities, equipment, and notable adversaries, all encapsulated within a visually appealing and user-friendly design
 
 <h2>Screenshot</h2>
-    <h2>Using Media Query Dynamic view</h2>
+    <h2>Using Media Query Responsiv view</h2>
     <div>
         <div align=left>
             <h3>2560Pixel</h3>
@@ -66,34 +66,6 @@ https://bejewelled-peony-e826b5.netlify.app/
 ### Summary
 - The CSS design emphasizes a visually engaging, interactive, and responsive user experience. It smartly balances aesthetic appeal with functionality, ensuring the website remains accessible, navigable, and visually consistent across a wide range of devices.
 
-
-### Lessons Learned
-
-Certainly! Working on this project has provided you with practical experience and insights into several foundational and advanced CSS concepts. Here are the key learnings from each area you mentioned:
-
-### Media Queries
-- Adaptive and Responsive Design: You learned how to use media queries to create designs that adapt to different screen sizes, enhancing the user experience across devices. This is crucial for modern web development where users access content on a wide array of devices with varying screen dimensions.
-- Syntax and Application: You've grasped how to structure media queries to apply CSS rules under specific conditions, such as min-width and max-width, enabling you to tailor the layout, typography, and navigation for mobile phones, tablets, and desktops.
-### Selectors
-- Complex Selector Use: Through the use of various selectors, including element, ID (#id), and class (.class) selectors, you've learned to precisely target and style specific parts of the webpage. This is fundamental for creating visually appealing and well-structured web pages.
-- Pseudo-classes and Attribute Selectors: The project introduced you to more complex selectors, like :hover for interactive elements, which enhances the user interface by providing visual feedback to user actions.
-### Navigation Bar
-- Fixed Positioning and Flexbox: Creating a navigation bar that is both fixed and flexible demonstrated the use of CSS positioning and Flexbox layout. This is key for developing user-friendly navigation that remains accessible as users scroll through a page.
-- Responsive Design for Navigation: Adjusting the navigation bar for different screen sizes using media queries taught you the importance of responsive design principles in improving the navigability and functionality of webpages on various devices.
-### Box Model
-- Understanding Margin, Border, Padding, and Content: You've gained a practical understanding of the CSS Box Model, which is crucial for layout design. Knowing how to manipulate these properties allows for precise control over the spacing and alignment of webpage elements.
-- Application in Layout and Design: Through practice, you've seen how adjustments to the box model properties can drastically affect the overall look and feel of your design, influencing readability, aesthetics, and user experience.
-### Additional Lessons
--Typography and Color Scheme: Choosing fonts and colors that complement the overall design theme while ensuring readability is vital. Your project work emphasized the importance of these elements in creating an aesthetically pleasing and accessible user interface.
-- Content Structuring: You've learned about structuring content using HTML and CSS, understanding how to lay out different types of content (text, images, videos) in a way that's both appealing and functional.
-### Moving Forward
-These learnings are building blocks in web development. As you progress, consider diving deeper into:
-
-- Advanced CSS features like CSS Grid, which offers even more layout control than Flexbox.
-- CSS preprocessors such as Sass or Less to write more maintainable and concise CSS.
-- CSS animations and transitions to enhance interactivity and user engagement.
-Accessibility best practices to ensure your web designs are usable by as wide an audience as possible.
-This project has laid a solid foundation. Continue building on these concepts, experimenting with new techniques, and tackling more complex projects to further your understanding and skills in web development.
 
 
 
